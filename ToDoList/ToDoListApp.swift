@@ -1,17 +1,12 @@
-//
-//  ToDoListApp.swift
-//  ToDoList
-//
-//  Created by Lucas García on 6/4/23.
-//
-
+import Blackbird
 import SwiftUI
 
 @main
-struct ToDoListApp: App {
+struct TodoItemsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
+                .environment(\.blackbirdDatabase, AppDatabase.instance)
         }
     }
 }
