@@ -15,6 +15,7 @@
 		27491F2F29DF1F7500682133 /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27491F2E29DF1F7500682133 /* db.sqlite */; };
 		27491F3329DF1FE500682133 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27491F3229DF1FE500682133 /* TodoItem.swift */; };
 		27491F3629DF207900682133 /* Blackbird in Frameworks */ = {isa = PBXBuildFile; productRef = 27491F3529DF207900682133 /* Blackbird */; };
+		27E8C17129E5915C00A1E24C /* ListItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E8C17029E5915C00A1E24C /* ListItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		27491F2D29DF1F5F00682133 /* Blackbird */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Blackbird; path = "../../../../../Library/Developer/Xcode/DerivedData/TodoItems-glrnzmaeejgsypgcxoxhdipyhnsb/SourcePackages/checkouts/Blackbird"; sourceTree = "<group>"; };
 		27491F2E29DF1F7500682133 /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
 		27491F3229DF1FE500682133 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		27E8C17029E5915C00A1E24C /* ListItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				27491F2829DF1EDD00682133 /* ListView.swift */,
+				27E8C17029E5915C00A1E24C /* ListItemsView.swift */,
 				27491F1E29DF1E7300682133 /* Assets.xcassets */,
 			);
 			path = Views;
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E8C17129E5915C00A1E24C /* ListItemsView.swift in Sources */,
 				27491F2B29DF1F1F00682133 /* AppDatabase.swift in Sources */,
 				27491F2929DF1EDD00682133 /* ListView.swift in Sources */,
 				27491F3329DF1FE500682133 /* TodoItem.swift in Sources */,
